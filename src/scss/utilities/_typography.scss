@@ -1,0 +1,14 @@
+// Utility typography classes
+.font-500 { font-weight: $font-medium; }
+.font-300 { font-weight: $font-light;}
+.font-700 { font-weight: $font-bold;}
+.ls-1 { letter-spacing: $ls-1; }
+.ls-2 { letter-spacing: $ls-2; }
+.ls-3 { letter-spacing: $ls-3; }
+
+.text-xs { font-size: $text-xs; }
+.text-sm { font-size: $text-sm; }
+.text-base { font-size: $text-base; } 
+.text-lg { font-size: $text-lg; }
+.text-xl { font-size: $text-xl; }
+.text-2xl { font-size: $text-2xl; }

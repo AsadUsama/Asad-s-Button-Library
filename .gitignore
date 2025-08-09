@@ -1,0 +1,11 @@
+node_modules/
+*.css.map
+.sass-cache/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.tmp
+*.swp
+*~

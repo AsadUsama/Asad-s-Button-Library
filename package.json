@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "sass --watch src/scss/main.scss:index.css",
+    "build": "sass src/scss/main.scss:index.css"
+  },
+
+
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

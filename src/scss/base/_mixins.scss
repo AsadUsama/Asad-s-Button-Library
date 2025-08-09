@@ -1,0 +1,24 @@
+@mixin flex-center{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+
+
+// Button Base:
+// A mixin for the base button style (padding, border-radius, font, etc.).
+// State Mixins:
+// Mixins for hover, active, focus, and disabled states.
+// Gradient Backgrounds:
+// Mixin for linear/gradient backgrounds with customizable direction and stops.
+// Box Shadows:
+// Mixin for applying box-shadows with parameters for color, blur, etc.
+// Pseudo Elements:
+// Mixin for common ::before/::after setup (position, content, etc.).
+// Animation/Keyframes:
+// Mixin to generate keyframes and apply animation properties.
+// Responsive Sizing:
+// Mixin for responsive button sizes (small, medium, large).

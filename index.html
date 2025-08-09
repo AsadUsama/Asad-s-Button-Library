@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad's Button Library</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <h2>Basic Effects</h2>
+        
+        <button class='btn padding-inline-2 btn-basic'>Basic Button</button>
+        <button class='btn btn-outline'>Outline</button>
+        
+        <h2>Slide & Movement Effects</h2>
+        
+        <button class='btn slide-in-btn slide-right'>Slide Right</button>
+        <button class='btn slide-in-btn slide-left'>Slide Left</button>
+        <button class='btn slide-in-btn slide-top'>Slide Top</button>
+        <button class='btn slide-in-btn slide-bottom'>Slide Bottom</button>
+        <button class="btn slide-in-btn left-to-right"><span>Left to Right</span></button>
+        <button class="btn slide-in-btn right-to-left"><span>Right to Left</span></button>
+        <button class="btn slide-in-btn top-to-bottom"><span class="hover-white-text">Top to Bottom</span></button>
+        <button class="btn slide-in-btn bottom-to-top"><span class="hover-white-text">Bottom to Top</span></button>
+        <button class='btn slide-in-btn btn-skew-slide-right'><span>Skew Right</span></button>
+        <button class='btn slide-in-btn btn-skew-slide-left'><span>Skew Left</span></button>
+        <button class='btn slide-across'>Slide Across</button>
+        <button class='btn slide-across-2'>Slide Across 2</button>
+        
+        <h2>Scale & Animation Effects</h2>
+        
+        <button class='btn scale-btn scale-up'>Scale Up</button>
+        <button class='btn scale-btn scale-down'>Scale Down</button>
+        <button class='btn shaking-btn'>Shake</button>
+        <button class="btn loading-btn">Loading</button>
+        
+        <h2>Gradient & Color Effects</h2>
+       
+        <button class='btn gradient-shift-btn'>Gradient Shift</button>
+        <button class='btn gradient-flow-btn'>Gradient Flow</button>
+        <button class='btn gradient-shift'>Gradient Change</button>
+        <button class='btn plain-to-gradient'>Plain to Gradient</button>
+        <button class='btn gradient-border'><span class='gradient-border-span'>Gradient Border</span></button>
+        <button class='btn gradient-grow-btn'><span class="gradient-grow-btn-span">Gradient Grow</span></button>
+        
+        <h2>Border Effects</h2>
+       
+        <button class='btn border-block'>Border Block</button>
+        <button class="btn border-bottom">Border Bottom</button>
+        <button class="btn border-bottom-slide">Border Bottom Slide</button>
+        <button class='btn border-grow'>Border Grow</button>
+        <button class='btn border-grow-2'>Border Grow 2</button>
+        
+        <h2>Fill & Transform Effects</h2>
+       
+        <button class='btn vertical-split-fill'>Vertical Split Fill</button>
+        <button class='btn horizontal-split-fill'>Horizontal Split Fill</button>
+        <button class='btn diagonal-split-fill'>Diagonal Split Fill</button>
+        <button class='btn scale-fill'>Scale Fill</button>
+        <button class='btn inset-fill'>Inset Fill</button>
+        <button class='btn outward-fill'>Outward Fill</button>
+        <button class='btn alternative-fill'><span class="alternative-span">Alternative Fill</span></button>
+        
+        <h2>Text Effects</h2>
+       
+        <button class='btn text-change'>
+            <span class="text text-one">Text Change</span>
+            <span class="text text-two">Text Change</span>
+        </button>
+        <button class="btn text-transform"><span class="text-3d">Text Transform</span></button>
+        <button class="btn text-transform-one"><span class="text-shake">Text Shake</span></button>
+        
+        <h2>3D & Depth Effects</h2>
+       
+        <button class="btn press-btn">Press Button</button>
+        <button class="btn curved-btn">
+            <span class="curved-btn-span">Curved Button</span>
+        </button>
+        <button class="btn lighting-border">Lighting Border</button>
+        <button class="btn arrow-slide">
+            <span class="arrow-slide-span">Arrow Slide</span>
+        </button>
+        
+        <h2>Advanced Border & Gradient Effects</h2>
+       
+        <button class='btn border-to-fill'>Border to Fill</button>
+        <button class="btn top-line-fill">top Fill Down</button>
+        <button class="btn left-up-fill-right">Left Fill Right</button>
+        <button class="btn right-down-fill-left">Right Fill Left</button>
+        <button class="btn top-right-left-fill">Top Right Fill Down</button>
+        <button class="btn bottom-right-left-fill">Bottom Left Fill Up</button>
+        <button class="btn left-down-fill-right">Left Fill Right</button>
+        <button class="btn right-up-fill-left">Right Up Left</button>
+        <button class='btn gradient-rotate'><span class='gradient-rotate-span'>Gradient Rotate</span></button>
+        
+        <h2>Skew & Transform Effects</h2>
+       
+        <button class="btn btn-skew-shine">
+            <span class="text-container">
+                <span class="text">Skew Shine</span>
+            </span>
+        </button>
+        
+        <h2>3D & Shadow Effects</h2>
+       
+        <button class="btn btn-float">Float</button>
+        <button class="btn btn-animate-scale">Animate Scale</button>
+        <button class="btn btn-soft-shadow">Soft Shadow</button>
+        <button class="btn pop-art">Pop Art</button>
+        <button class="btn btn-dashed">Dashed</button>
+        <button class="btn border-grow-underline">Border Grow Underline</button>
+        <button class="btn gradient-shimmer">Gradient Shimmer</button>
+        <button class="btn btn-multishadow">Multi Shadow</button>
+        <button class="btn btn-crush"><span>Crush</span></button>
+        
+        <h2>Glass & Glow Effects</h2>
+       
+        <button class="btn btn-skew-fill">Skew Fill</button>
+        <button class="btn glass-gradient">Glass Gradient</button>
+        <button class="btn skewed-purple">Skewed Purple</button>
+        <button class="btn glow-pink">Glow Pink</button>
+        <button class="btn outline-pill radius-pill">Outline Pill</button>
+        <button class="btn cyber-wobble">Cyber Wobble</button>
+        
+        <h2>Advanced Shadow Effects</h2>
+       
+        <button class="btn border-inset">Border Inset</button>
+        <button class="btn slate-shadow">Slate Shadow</button>
+        <button class="btn layered-shadow">Layered Shadow</button>
+        <button class="btn monocentric-shadow">Monocentric Shadow</button>
+        
+        <h2>Fill Effects</h2>
+       
+        <button class="btn fill-effect">
+            <span class="fill-effect__label">Fill Effect</span>
+        </button>
+        <button class="btn fill-effect-2">
+            <span class="fill-effect-2__label">Fill Effect 2</span>
+        </button>
+        <button class="btn rotate-bg">Rotate Background</button>
+        <button class="btn glow-gradient">
+            <span class="glow-gradient_label">Glow Gradient</span>
+        </button>
+        
+        <h2>Advanced Slide Effects</h2>
+       
+        <button class="btn slide-left-bottom">Slide Left Bottom</button>
+        <button class="btn slide-right-bottom">Slide Right Bottom</button>
+        <button class="btn slide-top-right">Slide Top Right</button>
+        <button class="btn slide-top-left">Slide Top Left</button>
+        
+        <h2>Neumorphic & Retro Effects</h2>
+       
+        <button class="btn retro-inset">Retro Inset</button>
+        <button class="btn btn-neumorphic">Neumorphic</button>
+        <button class="btn gradient-bg">Gradient Background</button>
+        
+        <h2>Corner Fold Effects</h2>
+       
+        <button class="btn fold-corner-tl">Fold Corner Top Left</button>
+        <button class="btn fold-corner-tr">Fold Corner Top Right</button>
+        <button class="btn fold-corner-bl">Fold Corner Bottom Left</button>
+        <button class="btn fold-corner-br">Fold Corner Bottom Right</button>
+        
+        <h2>Advanced Border Animations</h2>
+       
+        <button class="btn border-fade-in">Border Fade In</button>
+        <button class="btn border-scale-out">Border Scale Out</button>
+        <button class="btn border-pulse">Border Pulse</button>
+        <button class="btn border-slide-left">Border Slide Left</button>
+        <button class="btn border-slide-right">Border Slide Right</button>
+        <button class="btn border-slide-top">Border Slide Top</button>
+        <button class="btn border-slide-bottom">Border Slide Bottom</button>
+        <button class="btn border-rotate-scale">Border Rotate Scale</button>
+        
+        <h2>Rotation & Background Effects</h2>
+       
+        <button class="btn rotate-btn">Rotate Button</button>
+        <button class="btn sliding-gradient">Sliding Gradient</button>
+        <button class="btn rotating-bg">Rotating Background</button>
+        
+        <h2>Loading & Background Effects</h2>
+       
+        <button class="btn shake-btn">Shake Button</button>
+        <button class="btn glow-neon">Glow Neon</button>
+        <button class="btn radius-shift">Radius Shift</button>
+        <button class="btn bg-loading-left">Background Loading Left</button>
+        <button class="btn bg-loading-right">Background Loading Right</button>
+        <button class="btn bg-loading-top">Background Loading Top</button>
+        <button class="btn bg-loading-bottom">Background Loading Bottom</button>
+        <button class="btn bg-skew">Background Skew</button>
+        <button class="btn double-shadow"><span>Double Shadow</span></button>
+        
+        <h2>Magnetic & Ripple Effects</h2>
+       
+        <button class="btn magnetic-ripple">Magnetic Ripple</button>
+        <button class="btn neon-glow-pulse">Neon Glow Pulse</button>
+        
+        <h2>Liquid & Morphing Effects</h2>
+       
+        <button class="btn liquid-fill">Liquid Fill</button>
+        <button class="btn glitch-effect">Glitch Effect</button>
+        <button class="btn bubble-pop">Bubble Pop</button>
+        <button class="btn lightning-strike">Lightning Strike</button>
+        <button class="btn morphing-shape">Morphing Shape</button>
+        <button class="btn particle-explosion">Particle Explosion</button>
+        <button class="btn wave-ripple">Wave Ripple</button>
+        <button class="btn holographic-shine">Holographic Shine</button>
+        <button class="btn elastic-bounce">Elastic Bounce</button>
+        
+        <h2>Dissolve & Quantum Effects</h2>
+       
+        <button class="btn dissolve-effect">Dissolve Effect</button>
+        <button class="btn quantum-shift">Quantum Shift</button>
+        <button class="btn prism-glint">Prism Glint</button>
+        <button class="btn vortex-spin">Vortex Spin</button>
+        <button class="btn digital-matrix">Digital Matrix</button>
+        
+        <h2>Elemental Effects</h2>
+       
+        <button class="btn fire-ignite">Fire Ignite</button>
+        <button class="btn ice-crystal">Ice Crystal</button>
+        <button class="btn cyber-circuit">Cyber Circuit</button>
+        <button class="btn plasma-flow">Plasma Flow</button>
+        <button class="btn sonic-boom">Sonic Boom</button>
+        <button class="btn gravity-well">Gravity Well</button>
+        
+        <h2>Cosmic & Space Effects</h2>
+       
+        <button class="btn aurora-borealis">Aurora Borealis</button>
+        <button class="btn teleport-flash">Teleport Flash</button>
+        <button class="btn crystallize">Crystallize</button>
+        <button class="btn warp-drive">Warp Drive</button>
+        <button class="btn warp-drive-one">Warp Drive One</button>
+        <button class="btn molten-lava">Molten Lava</button>
+        <button class="btn phantom-phase">Phantom Phase</button>
+        <button class="btn starburst">Starburst</button>
+        <button class="btn shadow-morph">Shadow Morph</button>
+        <button class="btn temporal-rift">Temporal Rift</button>
+        <button class="btn cosmic-dust">Cosmic Dust</button>
+        <button class="btn meteor-strike">Meteor Strike</button>
+        
+        <h2>Biological & Natural Effects</h2>
+        
+        <button class="btn bioluminescent">Bioluminescent</button>
+        <button class="btn radioactive">Radioactive</button>
+        <button class="btn hyperspace-jump">Hyperspace Jump</button>
+        <button class="btn crystal-matrix">Crystal Matrix</button>
+        <button class="btn thunder-crack">Thunder Crack</button>
+        <button class="btn solar-flare">Solar Flare</button>
+        <button class="btn solar-flare-one">Solar Flare One</button>
+        <button class="btn void-collapse">Void Collapse</button>
+        <button class="btn spectrum-shift">Spectrum Shift</button>
+        <button class="btn magnetic-pulse">Magnetic Pulse</button>
+        <button class="btn stargate-portal"><span class="strange-portal_label">Stargate Portal</span></button>
+        <button class="btn laser-burn">Laser Burn</button>
+        
+        <h2>Astronomical Effects</h2>
+       
+        <button class="btn gravity-waves">Gravity Waves</button>
+        <button class="btn neutron-star">Neutron Star</button>
+        <button class="btn black-hole">Black Hole</button>
+        <button class="btn supernova">Supernova</button>
+        <button class="btn comet-trail">Comet Trail</button>
+        <button class="btn wormhole-entry">Wormhole Entry</button>
+        <button class="btn solar-wind">Solar Wind</button>
+        <button class="btn antimatter">Antimatter</button>
+        <button class="btn dark-energy">Dark Energy</button>
+        <button class="btn quasar-beam">Quasar Beam</button>
+        <button class="btn time-dilation">Time Dilation</button>
+        
+        <h2>Quantum Physics Effects</h2>
+       
+        <button class="btn photon-stream">Photon Stream</button>
+        <button class="btn fusion-core">Fusion Core</button>
+        <button class="btn quantum-foam">Quantum Foam</button>
+        <button class="btn higgs-field">Higgs Field</button>
+        <button class="btn string-vibration">String Vibration</button>
+        <button class="btn parallel-universe">Parallel Universe</button>
+        <button class="btn multiverse-split">Multiverse Split</button>
+        <button class="btn big-bang">Big Bang</button>
+        <button class="btn heat-death">Heat Death</button>
+        <button class="btn vacuum-decay">Vacuum Decay</button>
+        <button class="btn false-vacuum">False Vacuum</button>
+        
+        <h2>Fundamental Physics Effects</h2>
+       
+        <button class="btn planck-scale">Planck Scale</button>
+        <button class="btn event-horizon">Event Horizon</button>
+        <button class="btn singularity">Singularity</button>
+        <button class="btn strong-force">Strong Force</button>
+        <button class="btn weak-force">Weak Force</button>
+        <button class="btn gravitational">Gravitational</button>
+        <button class="btn nuclear-fission">Nuclear Fission</button>
+        <button class="btn nuclear-fusion">Nuclear Fusion</button>
+        <button class="btn alpha-decay">Alpha Decay</button>
+        <button class="btn beta-decay">Beta Decay</button>
+        <button class="btn gamma-ray">Gamma Ray</button>
+        
+        <h2>Advanced Physics Effects</h2>
+       
+        <button class="btn x-ray-burst">X-Ray Burst</button>
+        <button class="btn superposition">Superposition</button>
+        <button class="btn decoherence">Decoherence</button>
+        <button class="btn wave-collapse">Wave Collapse</button>
+        <button class="btn uncertainty">Uncertainty</button>
+        <button class="btn tunneling">Tunneling</button>
+        <button class="btn zero-point">Zero Point</button>
+        <button class="btn vacuum-energy">Vacuum Energy</button>
+        <button class="btn casimir-effect">Casimir Effect</button>
+        
+        <h2>Modern Effects</h2>
+       
+        <button class="btn glassmorphism-burst">Glassmorphism Burst</button>
+        <button class="btn breathing-cell">Breathing Cell</button>
+        
+        <h2>Biological & Cellular Effects</h2>
+       
+        <button class="btn liquid-blob">Liquid Blob</button>
+        <button class="btn dna-helix">DNA Helix</button>
+        <button class="btn mitosis-cell">Mitosis Cell</button>
+        <button class="btn jellyfish-pulse">Jellyfish Pulse</button>
+        <button class="btn spider-web">Spider Web</button>
+        <button class="btn leaf-photosynthesis">Leaf Photosynthesis</button>
+        <button class="btn honeycomb-cell">Honeycomb Cell</button>
+        <button class="btn magnetic-field">Magnetic Field</button>
+        <button class="btn electron-cloud">Electron Cloud</button>
+        <button class="btn gravitational-waves">Gravitational Waves</button>
+        
+        <h2>Fluid & Material Effects</h2>
+       
+        <button class="btn plasma-storm">Plasma Storm</button>
+        <button class="btn mercury-droplet">Mercury Droplet</button>
+        <button class="btn lava-lamp">Lava Lamp</button>
+        <button class="btn oil-spill">Oil Spill</button>
+        <button class="btn viscous-fluid">Viscous Fluid</button>
+        <button class="btn soap-bubble">Soap Bubble</button>
+        
+        <h2>Mathematical & Geometric Effects</h2>
+        
+        <button class="btn fibonacci-spiral">Fibonacci Spiral</button>
+        <button class="btn fractal-branch">Fractal Branch</button>
+        <button class="btn mobius-strip">Mobius Strip</button>
+        <button class="btn tesseract-4d">Tesseract 4D</button>
+        <button class="btn golden-ratio">Golden Ratio</button>
+        
+        <h2>Eldritch & Cosmic Horror Effects</h2>
+        
+        <button class="btn eldritch-tentacles">Eldritch Tentacles</button>
+        <button class="btn void-consumption">Void Consumption</button>
+        <button class="btn cosmic-eye">Cosmic Eye</button>
+        <button class="btn madness-spiral">Madness Spiral</button>
+        <button class="btn dimensional-tear">Dimensional Tear</button>
+        
+        <h2>Natural Disaster Effects</h2>
+        
+        <button class="btn lightning-storm">Lightning Storm</button>
+        <button class="btn volcanic-eruption">Volcanic Eruption</button>
+        <button class="btn tsunami-wave">Tsunami Wave</button>
+        <button class="btn tornado-vortex">Tornado Vortex</button>
+        
+        <h2>Technology & Digital Effects</h2>
+        
+        <button class="btn circuit-board">Circuit Board</button>
+        <button class="btn hologram-glitch">Hologram Glitch</button>
+        <button class="btn data-stream">Data Stream</button>
+        <button class="btn neon-flicker">Neon Flicker</button>
+        <button class="btn quantum-computer">Quantum Computer</button>
+        
+        <h2>Crystal & Mineral Effects</h2>
+        
+        <button class="btn crystal-growth">Crystal Growth</button>
+        <button class="btn gemstone-sparkle">Gemstone Sparkle</button>
+        <button class="btn mineral-erosion">Mineral Erosion</button>
+        <button class="btn quartz-vibration">Quartz Vibration</button>
+        
+        <h2>Magical & Mystical Effects</h2>
+        
+        <button class="btn arcane-circle">Arcane Circle</button>
+        <button class="btn spell-casting">Spell Casting</button>
+        <button class="btn rune-inscription">Rune Inscription</button>
+        <button class="btn ethereal-mist">Ethereal Mist</button>
+        <button class="btn neon-grid-80s">Neon Grid 80s</button>
+        
+        <h2>Retro & Vintage Effects</h2>
+        
+        <button class="btn vhs-glitch">VHS Glitch</button>
+        <button class="btn cassette-tape">Cassette Tape</button>
+        <button class="btn pixel-art">Pixel Art</button>
+        <button class="btn laser-scanner">Laser Scanner</button>
+        <button class="btn energy-shield">Energy Shield</button>
+        <button class="btn teleporter-beam">Teleporter Beam</button>
+        <button class="btn force-field">Force Field</button>
+        
+        <h2>Nature & Environmental Effects</h2>
+        
+        <button class="btn flower-bloom">Flower Bloom</button>
+        <button class="btn tree-growth">Tree Growth</button>
+        <button class="btn ocean-wave">Ocean Wave</button>
+        <button class="btn desert-sand">Desert Sand</button>
+        <button class="btn mountain-peak">Mountain Peak</button>
+        <button class="btn thunder-cloud">Thunder Cloud</button>
+        <button class="btn rainbow-arc">Rainbow Arc</button>
+        <button class="btn snow-fall">Snow Fall</button>
+        
+        <h2>Geometric Pattern Effects</h2>
+        
+        <button class="btn mandala-spin">Mandala Spin</button>
+        <button class="btn hexagon-grid">Hexagon Grid</button>
+        <button class="btn triangle-wave">Triangle Wave</button>
+        <button class="btn pentagon-morph">Pentagon Morph</button>
+        <button class="btn octagon-expand">Octagon Expand</button>
+        <button class="btn plasma-ball">Plasma Ball</button>
+        
+        <h2>Advanced Biological Effects</h2>
+        
+        <button class="btn dna-double-helix">DNA Double Helix</button>
+        <button class="btn nebula-swirl">Nebula Swirl</button>
+        <button class="btn quantum-tunnel">Quantum Tunnel</button>
+        <button class="btn cybernetic-implant">Cybernetic Implant</button>
+        <button class="btn neural-network">Neural Network</button>
+        <button class="btn biometric-scanner">Biometric Scanner</button>
+        <button class="btn mechanical-heart">Mechanical Heart</button>
+        <button class="btn spacetime-rift">Spacetime Rift</button>
+        <button class="btn parallel-dimension">Parallel Dimension</button>
+        <button class="btn quantum-entanglement">Quantum Entanglement</button>
+        
+        <h2>Elemental Fusion Effects</h2>
+        
+        <button class="btn fire-ice-fusion">Fire Ice Fusion</button>
+        <button class="btn lightning-water">Lightning Water</button>
+        <button class="btn metal-magnetism">Metal Magnetism</button>
+        <button class="btn crystal-energy">Crystal Energy</button>
+        
+        <h2>Mythical & Fantasy Effects</h2>
+        
+        <button class="btn phoenix-rising">Phoenix Rising</button>
+        <button class="btn dragon-breath">Dragon Breath</button>
+        <button class="btn unicorn-magic">Unicorn Magic</button>
+        <button class="btn celestial-gateway">Celestial Gateway</button>
+        <button class="btn void-singularity">Void Singularity</button>
+        
+        <h2>Digital & Matrix Effects</h2>
+        
+        <button class="btn matrix-code-rain">Matrix Code Rain</button>
+        <button class="btn holodeck-grid">Holodeck Grid</button>
+        
+        <h2>Advanced Physics Effects</h2>
+        
+        <button class="btn ion-storm">Ion Storm</button>
+        <button class="btn crystalline-matrix">Crystalline Matrix</button>
+        <button class="btn antimatter-reaction">Antimatter Reaction</button>
+        <button class="btn tachyon-field">Tachyon Field</button>
+        <button class="btn subspace-anomaly">Subspace Anomaly</button>
+        <button class="btn probability-wave">Probability Wave</button>
+        <button class="btn metamorphosis">Metamorphosis</button>
+        <button class="btn chromatic-aberration">Chromatic Aberration</button>
+        <button class="btn molecular-bond">Molecular Bond</button>
+        <button class="btn energy-cascade">Energy Cascade</button>
+        
+        <h2>Temporal & Echo Effects</h2>
+        
+        <button class="btn temporal-echo">Temporal Echo</button>
+        <button class="btn galactic-core">Galactic Core</button>
+        <button class="btn dark-matter">Dark Matter</button>
+        <button class="btn cosmic-web">Cosmic Web</button>
+        <button class="btn quantum-superposition">Quantum Superposition</button>
+        <button class="btn higgs-boson">Higgs Boson</button>
+        <button class="btn string-theory">String Theory</button>
+        <button class="btn planck-length">Planck Length</button>
+        <button class="btn cosmic-inflation">Cosmic Inflation</button>
+        <button class="btn big-rip">Big Rip</button>
+        
+        <h2>Universal & Philosophical Effects</h2>
+        
+        <button class="btn heat-death-universe">Heat Death Universe</button>
+        <button class="btn consciousness-upload">Consciousness Upload</button>
+        <button class="btn digital-transcendence">Digital Transcendence</button>
+        <button class="btn reality-simulation">Reality Simulation</button>
+        <button class="btn technological-singularity">Technological Singularity</button>
+        <button class="btn universal-constant">Universal Constant</button>
+        <button class="btn anthropic-principle">Anthropic Principle</button>
+        <button class="btn fermi-paradox">Fermi Paradox</button>
+        <button class="btn drake-equation">Drake Equation</button>
+        <button class="btn kardashev-scale">Kardashev Scale</button>
+        
+        <h2>Border Drawing Effects</h2>
+        
+        <button class='btn border-draw'>Border Draw</button>
+        <button class='btn border-walk'>Border Walk</button>
+        <button class='btn animate-draw'>Animate Draw</button>
+        <button class='btn gradient-glow'>Gradient Glow</button>
+        <button class='btn border-trail'>Border Trail</button>
+        <button class='btn neon-pulse'>Neon Pulse</button>
+        <button class='btn magnetic-border'>Magnetic Border</button>
+        <button class='btn corner-reveal'>Corner Reveal</button>
+        <button class='btn outline-morph'>Outline Morph</button>
+        
+        <h2>Advanced Movement Effects</h2>
+        
+        <button class='btn aqua-glide'>Aqua Glide</button>
+        <button class='btn neumorphic-1'>Neumorphic</button>
+        <button class='btn split-slide'>Split Slide</button>
+        <button class='btn magnetic-hover'>Magnetic Hover</button>
+        <button class='btn fold-paper'>Fold Paper</button>
+        <button class='btn liquid-bubble'>Liquid Bubble</button>
+        <button class='btn text-reveal'>Text Reveal</button>
+        
+        <h2>Advanced Animation Effects</h2>
+        
+        <button class='btn staggered-ripple'>Staggered Ripple</button>
+        <button class='btn holographic'>Holographic</button>
+        <button class='btn cyberpunk-glitch'>Cyberpunk Glitch</button>
+        <button class='btn mirror-reflect'>Mirror Reflect</button>
+        <button class='btn typewriter-reveal'>Typewriter Reveal</button>
+        <button class='btn magnetic-field-one'>Magnetic Field</button>
+        <button class='btn liquid-morph'>Liquid Morph</button>
+        <button class='btn matrix-rain'>Matrix Rain</button>
+        <button class='btn smoke-trail'>Smoke Trail</button>
+        
+        <h2>Origami & Paper Effects</h2>
+        
+        <button class='btn origami-fold'>Origami Fold</button>
+        <button class='btn ascii-terminal'>ASCII Terminal</button>
+        <button class='btn paper-airplane'>Paper Airplane</button>
+        <button class='btn tidal-wave'>Tidal Wave</button>
+        <button class='btn fractal-zoom'>Fractal Zoom</button>
+        <button class='btn origami-crane'>Origami Crane</button>
+        
+        <h2>Corner & Peel Effects</h2>
+        
+        <button class='btn corner-peel'>
+            <span class="corner-peel-span">Corner Peel</span>
+        </button>
+        <button class='btn diagonal-wipe'>Diagonal Wipe</button>
+        <button class="btn corner-peel-left">
+            <span class="corner-peel-left-span">Corner Peel Left</span>
+        </button>
+        
+        <h2>Fold & Reveal Effects</h2>
+        
+        <button class='btn accordion-fold'>Accordion Fold</button>
+        <button class='btn origami-unfold'>Origami Unfold</button>
+        <button class='btn airglide-launch'>Airglide Launch</button>
+        <button class='btn bookmark-bend'>Bookmark Bend</button>
+        <button class='btn curtain-reveal'>Curtain Reveal</button>
+        <button class='btn venetian-blind'>Venetian Blind</button>
+        <button class='btn polaroid-flip'>Polaroid Flip</button>
+        <button class='btn cassette-eject'>Cassette Eject</button>
+        <button class='btn floppy-disk'>Floppy Disk</button>
+        
+        <h2>Fluid & Liquid Effects</h2>
+        
+        <button class='btn mercury-flow'>Mercury Flow</button>
+        <button class='btn molasses-drip'>Molasses Drip</button>
+        <button class='btn quicksilver'>Quicksilver</button>
+        <button class='btn tar-pit'>Tar Pit</button>
+        <button class='btn lava-bubble'>Lava Bubble</button>
+        <button class='btn plasma-glob'>Plasma Glob</button>
+        <button class='btn gel-wobble'>Gel Wobble</button>
+        <button class='btn slime-stretch'>Slime Stretch</button>
+        <button class='btn puddle-splash'>Puddle Splash</button>
+        
+        <h2>Geometric Shape Effects</h2>
+        
+        <button class='btn hexagon-expand'>Hexagon Expand</button>
+        <button class='btn octagon-twist'>Octagon Twist</button>
+        <button class='btn triangle-prism'>Triangle Prism</button>
+        <button class='btn pentagon-burst'>Pentagon Burst</button>
+        <button class='btn rhombus-slide'>Rhombus Slide</button>
+        <button class='btn trapezoid-tilt'>Trapezoid Tilt</button>
+        <button class='btn parallelogram-skew'>Parallelogram Skew</button>
+        <button class='btn diamond-cut'>Diamond Cut</button>
+        <button class='btn star-polygon'>Star Polygon</button>
+        
+        <h2>Weather & Natural Phenomena</h2>
+        
+        <button class='btn desert-mirage'>Desert Mirage</button>
+        <button class='btn aurora-dance'>Aurora Dance</button>
+        <button class='btn blizzard-freeze'>Blizzard Freeze</button>
+        <button class='btn monsoon-rain'>Monsoon Rain</button>
+        <button class='btn drought-crack'>Drought Crack</button>
+        <button class='btn earthquake-shake'>Earthquake Shake</button>
+        <button class='btn avalanche-tumble'>Avalanche Tumble</button>
+        <button class='btn geyser-burst'>Geyser Burst</button>
+        
+        <h2>Retro & Vintage Technology</h2>
+        
+        <button class='btn neon-sign-buzz'>Neon Sign Buzz</button>
+        <button class='btn jukebox-glow'>Jukebox Glow</button>
+        <button class='btn pinball-flash'>Pinball Flash</button>
+        <button class='btn arcade-coin'>Arcade Coin</button>
+        <button class='btn television-static'>Television Static</button>
+        <button class='btn telegraph-morse'>Telegraph Morse</button>
+        <button class='btn typewriter-key'>Typewriter Key</button>
+        <button class='btn film-reel'>Film Reel</button>
+        <button class='btn camera-shutter'>Camera Shutter</button>
+        
+        <h2>Modern Technology Effects</h2>
+        
+        <button class='btn digital-breakdown'>Digital Breakdown</button>
+        <button class='btn cyber-pulse'>Cyber Pulse</button>
+        <button class='btn blockchain-verify'>Blockchain Verify</button>
+        <button class='btn ai-processing'>AI Processing</button>
+        <button class='btn hologram-project'>Hologram Project</button>
+        <button class='btn tech-scanner'>Tech Scanner</button>
+        
+        <h2>Space & Astronomical Effects</h2>
+    
+        <button class='btn nebula-swirl-one'>Nebula Swirl</button>
+        <button class='btn galaxy-rotation'>Galaxy Rotation</button>
+        <button class='btn asteroid-belt'>Asteroid Belt</button>
+        <button class='btn solar-eclipse'>Solar Eclipse</button>
+        <button class='btn cosmic-radiation'>Cosmic Radiation</button>
+        <button class='btn satellite-orbit'>Satellite Orbit</button>
+        <button class='btn space-debris'>Space Debris</button>
+        <button class='btn planetary-align'>Planetary Align</button>
+        <button class='btn rocket-launch'>Rocket Launch</button>
+        <button class='btn interstellar'>Interstellar</button>
+        
+        <h2>Biological & Cellular Effects</h2>
+    
+        <button class='btn cell-division'>Cell Division</button>
+        <button class='btn virus-spread'>Virus Spread</button>
+        <button class='btn neural-fire'>Neural Fire</button>
+        <button class='btn enzyme-react'>Enzyme React</button>
+        <button class='btn protein-fold'>Protein Fold</button>
+        <button class='btn membrane-flux'>Membrane Flux</button>
+        <button class='btn ecosystem-pulse'>Ecosystem Pulse</button>
+        <button class='btn evolution-step'>Evolution Step</button>
+        
+        <h2>Gaming Effects</h2>
+        
+        <button class='btn power-up'>Power Up</button>
+        <button class='btn level-complete'>Level Complete</button>
+        <button class='btn boss-fight'>Boss Fight</button>
+        <button class='btn combo-strike'>Combo Strike</button>
+        <button class='btn critical-hit'>Critical Hit</button>
+        <button class='btn respawn-timer'>Respawn Timer</button>
+        <button class='btn achievement-unlock'>Achievement Unlock</button>
+        
+        <h2>Artistic & Creative Effects</h2>
+        
+        <button class='btn paint-splash'>Paint Splash</button>
+        <button class='btn ink-blot'>Ink Blot</button>
+        <button class='btn watercolor-blend'>Watercolor Blend</button>
+        <button class='btn sketch-outline'>Sketch Outline</button>
+        <button class='btn graffiti-spray'>Graffiti Spray</button>
+        <button class='btn marble-texture'>Marble Texture</button>
+        <button class='btn mosaic-pattern'>Mosaic Pattern</button>
+        <button class='btn abstract-flow'>Abstract Flow</button>
+        <button class='btn dimensional-shift'>Dimensional Shift</button>
+        
+        <h2>Advanced Border Effects</h2>
+        
+        <button class='btn border-spiral'>Border Spiral</button>
+        <button class='btn border-orbit'>Border Orbit</button>
+        <button class='btn border-zigzag'>Border Zigzag</button>
+        <button class='btn neon-circuit'>Neon Circuit</button>
+        <button class="btn border-draw-2">Border Draw 2</button>
+        <button class="btn border-draw-4">Border Draw 4</button>
+        <button class="btn border-pulse-draw">Border Pulse Draw</button>
+        
+        <h2>Morphing & Shape Effects</h2>
+        
+        <button class='btn polygon-morph'>Polygon Morph</button>
+        <button class='btn hex-burst'>Hex Burst</button>
+        <button class='btn arrow-morph'>Arrow Morph</button>
+        <button class='btn wave-cut'>Wave Cut</button>
+        <button class='btn puzzle-piece'>Puzzle Piece</button>
+        <button class='btn paper-crane'>Paper Crane</button>
+        <button class='btn hydra-burst'>Hydra Burst</button>
+        <button class='btn mercury-drop'>Mercury Drop</button>
+        <button class='btn cylinder-roll'>Cylinder Roll</button>
+        
+        <h2>Prism & Light Effects</h2>
+        <button class='btn prism-split'>Prism Split</button>
+        <button class='btn prism-split-alt'>Prism Split Alt</button>
+        <button class='btn prism-split-debug'>Prism Split Debug</button>
+        <button class="btn split-reveal">Split Reveal</button>
+        <button class='btn sphere-morph'>Sphere Morph</button>
+        <button class='btn crease-flip'>Crease Flip</button>
+        <button class='btn crystal-facet'>Crystal Facet</button>
+        <button class='btn vapor-drift'>Vapor Drift</button>
+        <button class='btn typewriter'><span class="typewriter-text">Typewriter</span></button>
+        <button class='btn cyber-blink'>Cyber Blink</button>
+        
+        <h2>Orbit & Ring Effects</h2>
+        
+        <button class="btn orbit-ring">
+            <span class="orbit-text_label">Orbit Ring</span>
+        </button>
+        <button class="btn peel-right">
+            <span class="peel-right_label">Peel Right</span>
+        </button>
+        
+        <h2>Flow & Movement Effects</h2>
+        
+        <button class="btn lava-flow"><span class="lava-flow_label">Lava Flow</span></button>
+        <button class="btn ripple-echo"><span class="ripple-echo_label">Ripple Echo</span></button>
+        <button class="btn wireframe-reveal"><span class="wireframe-reveal_label">Wireframe Reveal</span></button>
+        <button class="btn sonar-ping"><span class="sonar-ping_label">Sonar Ping</span></button>
+        <button class="btn ink-bleed">Ink Bleed</button>
+        <button class="btn circuit-flare"><span class="circuit-flare_label">Circuit Flare</span></button>
+        <button class="btn fold-invert">Fold Invert</button>
+        <button class="btn helix-scroll"><span class="helix-scroll_label">Helix Scroll</span></button>
+        <button class="btn beam-sweep"><span class="beam-sweep_label">Beam Sweep</span></button>
+        <button class="btn paper-fold">Paper Fold</button>
+        <button class="btn meteor-stream">Meteor Stream</button>
+        <button class="btn neon-drip">Neon Drip</button>
+        
+        <h2>Advanced Animation Effects</h2>
+
+        <button class="btn orbit-flip"><span class="orbit-flip_label">Orbit Flip</span></button>
+        <button class="btn laser-strike"><span class="laser-strike_label">Laser Strike</span></button>
+        <button class="btn shimmer-bar"><span class="shimmer-bar_label">Shimmer Bar</span></button>
+        <button class="btn burst-pulse">Burst Pulse</button>
+        <button class="btn split-flicker"><span class="split-flicker_label">Split Flicker</span></button>
+        <button class="btn edge-flare">Edge Flare</button>
+        <button class="btn glow-ring"><span class="glow-ring_label">Glow Ring</span></button>
+        <button class="btn flash-wave">Flash Wave</button>
+        <button class="btn sweep-border">Sweep Border</button>
+        
+        <h2>Sweep & Movement Effects</h2>
+
+        <button class="btn left-sweep">Left Sweep</button>
+        <button class="btn right-sweep">Right Sweep</button>
+        <button class="btn burst-hover">Burst Hover</button>
+        <button class="btn border-revolve">Border Revolve</button>
+        <button class="btn grow-fill">Grow Fill</button>
+        <button class="btn offset-border">Offset Border</button>
+        <button class="btn strike-through">Strike Through</button>
+        <button class="btn slide-text"><span class="slide-text_label">Slide Text</span></button>
+        <button class="btn multiple-outline">Multiple Outline</button>
+        
+        <h2>Advanced Interactive Effects</h2>
+
+        <button class="btn ring-indicator">Ring Indicator</button>
+        <button class="btn clip-flip">Clip Flip</button>
+        <button class="btn clip-flip-reverse">Clip Flip Reverse</button>
+        <button class="btn shine-swipe">Shine Swipe</button>
+        <button class="btn shine-swipe-resverse">Shine Swipe Reverse</button>
+        <button class="btn wobble-wiggle">Wobble Wiggle</button>
+        <button class="btn inside-out">Inside Out</button>
+        <button class="btn offset-bg-split">Offset Background Split</button>
+        <button class="btn wibbly-text">Wibbly Text</button>
+        <button class="btn corner-expand">Corner Expand</button>
+        <button class="btn split-wave">Split Wave</button>
+        <button class="btn corner-brackets"><span class="corner-brackets_label">Corner Brackets</span></button>
+        <button class="btn inset-shine">Inset Shine</button>
+        <button class="btn text-slide-up"><span class="text-slide-up_label">Text Slide Up</span></button>
+        <button class="btn halo-pulse">Halo Pulse</button>
+        <button class="btn slide-edges">Slide Edges</button>
+        
+        <h2>Simple & Clean Effects</h2>
+        
+        <button class="btn pulse-ring-simple">Pulse Ring Simple</button>
+        <button class="btn flip-bg-half">Flip Background Half</button>
+        <button class="btn wave-edge">Wave Edge</button>
+        <button class="btn outline-chase">Outline Chase</button>
+        <button class="btn outline-expand">Outline Expand</button>
+        <button class="btn ghost-fade">Ghost Fade</button>
+        
+        <h2>Shine & Glow Effects</h2>
+        
+        <button class="btn shiny-swipe">Shiny Swipe</button>
+        <button class="btn box-shadow-wipe">Box Shadow Wipe</button>
+        
+        <h2>Fun & Playful Effects</h2>
+
+        <button class="btn bubble-popcorn">Bubble Popcorn</button>
+        <button class="btn tilted-slice">Tilted Slice</button>
+        
+        <h2>Special Effects</h2>
+
+        <button class="spin-btn">
+            <span class="spin-btn-span">
+                <i class="fa-solid fa-file fa-lg" style="color: #ffffff;"></i>
+            </span>
+            <span class="spin-btn-text_label">Spin Button</span>
+        </button>
+
+    </div>
+</body>
+
+</html>

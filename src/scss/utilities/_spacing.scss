@@ -1,0 +1,25 @@
+
+
+// Padding block (top/bottom)
+.pb-1 { padding-top: $padding-block-1; padding-bottom: $padding-block-1; }
+.pb-2 { padding-top: $padding-block-2; padding-bottom: $padding-block-2; }
+.pb-3 { padding-top: $padding-block-3; padding-bottom: $padding-block-3; }
+.pb-4 { padding-top: $padding-block-4; padding-bottom: $padding-block-4; }
+.pb-5 { padding-top: $padding-block-5; padding-bottom: $padding-block-5; }
+.pb-6 { padding-top: $padding-block-6; padding-bottom: $padding-block-6; }
+
+// Padding inline (left/right)
+.pi-2 { padding-left: $padding-inline-2; padding-right: $padding-inline-2; }
+.pi-3 { padding-left: $padding-inline-3; padding-right: $padding-inline-3; }
+.pi-4 { padding-left: $padding-inline-4; padding-right: $padding-inline-4; }
+.pi-6 { padding-left: $padding-inline-6; padding-right: $padding-inline-6; }
+
+
+.radius-none { border-radius: 0; }
+.radius-xs { border-radius: $br-4; }
+.radius-sm { border-radius: $br-8; }
+.radius-md { border-radius: $br-12; }
+.radius-lg { border-radius: $br-20; } // default for most buttons
+.radius-xl { border-radius: $br-32; }
+.radius-square { border-radius: 0; }
+.radius-pill { border-radius: 9999px;}

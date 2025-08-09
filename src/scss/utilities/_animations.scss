@@ -1,0 +1,5987 @@
+// Slide in and out keyframes
+@keyframes slide-right {
+  0% {
+    left: -100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes leave-right {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    left: 100%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes leave-left {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    top: -100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes leave-top {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes leave-bottom {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -100%;
+  }
+}
+
+@keyframes scroll-bg {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 150% 0;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(10px);
+  }
+
+  50% {
+    transform: translateX(-10px);
+  }
+
+  75% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: skew(40deg) translateX(300%);
+  }
+
+  to {
+    transform: skew(40deg) translateX(-300%);
+  }
+}
+
+@keyframes slide-down-3 {
+  from {
+    transform: skew(40deg) translateX(-300%);
+  }
+
+  to {
+    transform: skew(40deg) translateX(300%);
+  }
+}
+
+@keyframes loading {
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes border-in {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes border-out {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(190deg);
+  }
+
+  75% {
+    transform: rotate(170deg);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes btn-scale-wobble {
+  0% {
+    transform: scale(0.7, 1.3);
+  }
+
+  25% {
+    transform: scale(1.3, 0.7);
+  }
+
+  50% {
+    transform: scale(0.7, 1.3);
+  }
+
+  75% {
+    transform: scale(1.3, 0.7);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+
+
+@keyframes btn-shimmer {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+@keyframes btn-particles {
+  0% {
+    background-position: left top;
+  }
+
+  100% {
+    background-position: right bottom;
+  }
+}
+
+
+@keyframes btn-3d-flip-progress-bar {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+
+  10% {
+    opacity: 1;
+    width: 15%;
+  }
+
+  25% {
+    opacity: 1;
+    width: 25%;
+  }
+
+  40% {
+    opacity: 1;
+    width: 35%;
+  }
+
+  55% {
+    opacity: 1;
+    width: 75%;
+  }
+
+  60% {
+    opacity: 1;
+    width: 100%;
+  }
+
+  100% {
+    opacity: 0;
+    width: 100%;
+  }
+}
+
+
+
+@keyframes cyberWobbleBefore {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+
+  16% {
+    transform: translate(6px, 6px);
+  }
+
+  28% {
+    opacity: 1;
+    transform: translate(3px, 3px);
+  }
+
+  44% {
+    transform: translate(5px, 5px);
+  }
+
+  59% {
+    transform: translate(3px, 3px);
+  }
+
+  73% {
+    transform: translate(4px, 4px);
+  }
+
+  88% {
+    opacity: 1;
+    transform: translate(4px, 4px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(4px, 4px);
+  }
+}
+
+@keyframes cyberWobbleAfter {
+  0% {
+    opacity: 0;
+    transform: translate(0px, 0px);
+  }
+
+  16% {
+    transform: translate(-10px, -10px);
+  }
+
+  28% {
+    opacity: 1;
+    transform: translate(-4px, -4px);
+  }
+
+  44% {
+    transform: translate(-8px, -8px);
+  }
+
+  59% {
+    transform: translate(-5px, -5px);
+  }
+
+  73% {
+    transform: translate(-7px, -7px);
+  }
+
+  88% {
+    opacity: 1;
+    transform: translate(-5px, -5px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-6px, -6px);
+  }
+}
+
+
+
+@keyframes btn-rotate-bg-anim {
+  0% {
+    transform: rotateY(180deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+@keyframes btn-glow-gradient-animate {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 300% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@keyframes pulse-border {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 0.7;
+  }
+}
+
+@keyframes slidernbw {
+  to {
+    background-position: 500px;
+
+  }
+}
+
+@keyframes shake-effect {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes storm {
+  0% {
+    transform: translate3d(0px, 0px, 0) translateZ(0);
+  }
+
+  25% {
+    transform: translate3d(4px, 0px, 0) translateZ(0);
+  }
+
+  50% {
+    transform: translate3d(-3px, 0px, 0) translateZ(0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0px, 0) translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(0px, 0px, 0) translateZ(0);
+  }
+}
+
+
+
+
+
+// ********************************************************************
+
+
+
+
+// Neon Effects
+@keyframes neon-pulse {
+
+  0%,
+  100% {
+    text-shadow: 0 0 10px #00ffff;
+    box-shadow: inset 0 0 10px #00ffff, 0 0 10px #00ffff;
+  }
+
+  50% {
+    text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+    box-shadow: inset 0 0 20px #00ffff, 0 0 40px #00ffff;
+  }
+}
+
+// Glitch Effects
+@keyframes glitch-shake {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+// Bubble and Pop Effects
+@keyframes bubble-pop-anim {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+// Lightning and Energy Effects
+@keyframes lightning-flash {
+  0% {
+    opacity: 0;
+
+  }
+
+  50% {
+    opacity: 1;
+
+  }
+
+  100% {
+    opacity: 0;
+
+  }
+}
+
+// Particle Effects
+@keyframes particle-explode {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(2);
+  }
+}
+
+// Wave Effects
+@keyframes wave-rise {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+// Holographic Effects
+@keyframes holographic-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Vortex and Rotation Effects
+@keyframes vortex-rotation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+// Matrix and Digital Effects
+@keyframes matrix-glitch {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+
+  75% {
+    filter: hue-rotate(270deg);
+  }
+}
+
+// Fire Effects
+@keyframes fire-flicker {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}
+
+// Ice Effects
+@keyframes ice-shimmer {
+  0% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.3);
+  }
+
+  100% {
+    filter: brightness(1);
+  }
+}
+
+// Circuit Effects
+@keyframes circuit-pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 5px #00ffff;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #00ffff, inset 0 0 10px #00ffff;
+  }
+}
+
+// Nebula Effects
+@keyframes nebula-rotate {
+  0% {
+    transform: rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    filter: hue-rotate(360deg);
+
+  }
+}
+
+
+@keyframes nebula-rotation {
+  0% {
+    filter: hue-rotate(0deg);
+
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+
+  }
+}
+
+
+// Plasma Effects
+@keyframes plasma-flow-anim {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Sonic Effects
+@keyframes sonic-wave {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+// Gravity Effects
+@keyframes gravity-pull {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(0.95);
+  }
+}
+
+
+// Aurora Effects
+@keyframes aurora-dance {
+  0% {
+    transform: translateY(-100%);
+    filter: hue-rotate(0deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(100%);
+    filter: hue-rotate(120deg);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: translateY(-100%);
+    filter: hue-rotate(240deg);
+    opacity: 0;
+  }
+}
+
+// Teleport Effects
+@keyframes teleport-effect {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale(0.8);
+    filter: blur(2px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+
+// Crystal Effects
+@keyframes crystal-shine {
+  0% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.5) saturate(1.5);
+  }
+
+  100% {
+    filter: brightness(1);
+  }
+}
+
+// Warp Effects
+@keyframes warp-speed-one {
+  0% {
+    transform: translateX(-100%) skewX(-20deg);
+  }
+
+  100% {
+    transform: translateX(200%) skewX(-20deg);
+  }
+}
+
+
+@keyframes warp-speed {
+  0% {
+    transform: translateX(-100%) skewX(-20deg);
+    transform: scaleX(1);
+  }
+
+  50% {
+    transform: translateX(100%) skewX(-20deg);
+    transform: scaleX(1.5);
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: translateX(200%) skewX(-20deg);
+    transform: scaleX(1);
+  }
+}
+
+@keyframes beam-up {
+  0% {
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    height: 100%;
+    opacity: 0.3;
+  }
+}
+
+// Lava Effects
+@keyframes lava-bubble {
+
+  0%,
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+}
+
+// Phantom Effects
+@keyframes phantom-fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// Starburst Effects
+@keyframes starburst-twinkle {
+
+  0%,
+  100% {
+    filter: brightness(1);
+    transform: scale(1);
+  }
+
+  50% {
+    filter: brightness(1.5);
+    transform: scale(1.1);
+  }
+}
+
+// Shadow Effects
+@keyframes shadow-dance {
+  0% {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+
+  25% {
+    box-shadow: -5px 4px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  75% {
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+}
+
+
+
+// Time Effects
+@keyframes time-warp {
+  0% {
+    background-position: 0% 50%;
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    background-position: 200% 50%;
+    filter: hue-rotate(360deg);
+  }
+}
+
+// Cosmic Effects
+@keyframes dust-swirl {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes meteor-impact {
+  0% {
+    transform: translate(-100%, -100%) rotate(0deg);
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(100%, 100%) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+// Bio Effects
+@keyframes bio-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px #00ff9f;
+  }
+
+  50% {
+    box-shadow: 0 0 30px #00ff9f, inset 0 0 10px #00ff9f;
+  }
+}
+
+// Radiation Effects
+@keyframes radiation-pulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px #228b22;
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 30px #228b22, 0 0 60px #228b22;
+    transform: scale(1.05);
+  }
+}
+
+// Hyperspace Effects
+@keyframes hyperspace-stretch {
+  0% {
+    transform: scaleX(1) scaleY(1);
+  }
+
+  50% {
+    transform: scaleX(2) scaleY(0.5);
+    filter: blur(2px);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+// Matrix Effects
+@keyframes matrix-pulse {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.5) contrast(1.5);
+  }
+}
+
+// Quantum Effects
+@keyframes quantum-flicker {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0.8;
+  }
+
+  40% {
+    opacity: 0.3;
+  }
+
+  60% {
+    opacity: 0.9;
+  }
+
+  80% {
+    opacity: 0.1;
+  }
+}
+
+// Dissolve Effects
+@keyframes dissolve-fade {
+  0% {
+    filter: opacity(1);
+  }
+
+  50% {
+    filter: opacity(0.5) blur(1px);
+  }
+
+  100% {
+    filter: opacity(1);
+  }
+}
+
+// Thunder Effects
+@keyframes thunder-flash {
+  0% {
+    filter: brightness(1);
+  }
+
+  10% {
+    filter: brightness(3);
+  }
+
+  20% {
+    filter: brightness(1);
+  }
+
+  30% {
+    filter: brightness(2);
+  }
+
+  40% {
+    filter: brightness(1);
+  }
+}
+
+// Solar Effects
+@keyframes solar-burst {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+
+  }
+
+  50% {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+    // width: 100%;
+    // height: 100%;
+    // opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+
+  }
+}
+
+@keyframes solar-burst-one {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+
+  }
+
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
+}
+
+// Void Effects
+@keyframes void-implosion {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Spectrum Effects
+@keyframes spectrum-rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+// Magnetic Effects (additional)
+@keyframes magnetic-wave {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px #1e90ff;
+  }
+
+  50% {
+    box-shadow: 0 0 30px #1e90ff, 0 0 60px #1e90ff;
+  }
+}
+
+
+
+
+// Portal Effects
+@keyframes light-pulse {
+  0% {
+    opacity: 0.6;
+    box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.4);
+  }
+
+  100% {
+    opacity: 1;
+    box-shadow: 0px 0px 30px rgba(0, 255, 255, 0.8);
+  }
+}
+
+@keyframes portal-energy-pulse {
+  0% {
+    opacity: 0.3;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+
+  100% {
+    opacity: 0.6;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+@keyframes text-glow {
+  0% {
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+  }
+
+  100% {
+    text-shadow: 0px 0px 20px rgba(0, 255, 255, 1),
+      0px 0px 30px rgba(0, 255, 255, 0.5);
+  }
+}
+
+// Laser Effects
+@keyframes laser-trace {
+  0% {
+    box-shadow: 0 0 5px #dc143c;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #dc143c, inset 0 0 10px #dc143c;
+  }
+
+  100% {
+    box-shadow: 0 0 5px #dc143c;
+  }
+}
+
+// Wave Distortion
+@keyframes wave-distortion {
+
+  0%,
+  100% {
+    transform: skewX(0deg);
+  }
+
+  25% {
+    transform: skewX(5deg);
+  }
+
+  75% {
+    transform: skewX(-5deg);
+  }
+}
+
+// Neutron Effects
+@keyframes neutron-pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+    filter: brightness(2);
+  }
+}
+
+// Black Hole Effects
+@keyframes black-hole-pull {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// Supernova Effects
+@keyframes supernova-blast {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  30% {
+    transform: scale(1.3);
+    filter: brightness(3);
+  }
+
+  100% {
+    transform: scale(1.5);
+    filter: brightness(0.5);
+    opacity: 0.7;
+  }
+}
+
+// Comet Effects
+@keyframes comet-streak {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+
+
+// Wormhole Effects
+@keyframes wormhole-tunnel {
+  0% {
+    transform: scale(1) rotateZ(0deg);
+  }
+
+  50% {
+    transform: scale(0.8) rotateZ(180deg);
+  }
+
+  100% {
+    transform: scale(1) rotateZ(360deg);
+  }
+}
+
+// Solar Wind Effects
+@keyframes solar-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+// Continue with quantum effects...
+
+// Antimatter Effects
+@keyframes antimatter-glow {
+
+  0%,
+  100% {
+    filter: invert(0);
+  }
+
+  50% {
+    filter: invert(1);
+  }
+}
+
+// Dark Energy Effects
+@keyframes dark-pulse {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+// Quasar Effects
+@keyframes quasar-flash {
+  0% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(3) saturate(2);
+  }
+
+  100% {
+    filter: brightness(1);
+  }
+}
+
+// Time Dilation Effects
+@keyframes time-slow {
+  0% {
+    filter: blur(0px);
+  }
+
+  50% {
+    filter: blur(2px);
+    transform: scale(0.95);
+  }
+
+  100% {
+    filter: blur(0px);
+  }
+}
+
+// Photon Effects
+@keyframes photon-flow {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Fusion Effects
+@keyframes fusion-reaction {
+
+  0%,
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    filter: brightness(1.8) saturate(1.5);
+  }
+}
+
+// Quantum Foam Effects
+@keyframes foam-bubble {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+// Higgs Field Effects
+@keyframes higgs-wave {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+// String Theory Effects
+@keyframes string-oscillate {
+
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.2);
+  }
+}
+
+// Multiverse Effects
+@keyframes universe-shift {
+  0% {
+    filter: hue-rotate(0deg) saturate(1);
+  }
+
+  100% {
+    filter: hue-rotate(360deg) saturate(1.5);
+  }
+}
+
+@keyframes multiverse-fractal {
+  0% {
+    background-position: 0% 50%;
+    transform: scale(1);
+  }
+
+  100% {
+    background-position: 400% 50%;
+    transform: scale(1.1);
+  }
+}
+
+// Big Bang Effects
+@keyframes big-bang-burst {
+  0% {
+    transform: scale(0.1);
+    filter: brightness(5);
+  }
+
+  50% {
+    transform: scale(1.5);
+    filter: brightness(2);
+  }
+
+  100% {
+    transform: scale(2);
+    filter: brightness(0.5);
+    opacity: 0.3;
+  }
+}
+
+// Entropy Effects
+@keyframes entropy-fade {
+  0% {
+    filter: brightness(1) saturate(1);
+  }
+
+  100% {
+    filter: brightness(0.3) saturate(0.1);
+  }
+}
+
+// Vacuum Effects
+@keyframes vacuum-collapse {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  50% {
+    transform: scale(0.5);
+    filter: brightness(0.1);
+  }
+
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+
+// flase-vaccum 
+@keyframes vacuum-bubble-expand {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+
+  10% {
+    width: 20px;
+    height: 20px;
+    opacity: 0.8;
+  }
+
+  50% {
+    width: 120px;
+    height: 120px;
+    opacity: 0.9;
+  }
+
+  100% {
+    width: 200px;
+    height: 200px;
+    opacity: 0.7;
+  }
+}
+
+@keyframes reality-distort {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+
+  30% {
+    opacity: 0.3;
+    transform: scale(1.02);
+  }
+
+  70% {
+    opacity: 0.6;
+    transform: scale(0.98);
+  }
+
+  100% {
+    opacity: 0.8;
+    transform: scale(1.01);
+  }
+}
+
+@keyframes text-reality-shift {
+  0% {
+    color: #ffffff;
+    text-shadow: none;
+  }
+
+  25% {
+    color: #ffdddd;
+    text-shadow: 0px 0px 5px rgba(255, 0, 0, 0.5);
+  }
+
+  50% {
+    color: #ffaa00;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+  }
+
+  75% {
+    color: #ffffff;
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+  }
+
+  100% {
+    color: #ffeeee;
+    text-shadow: 0px 0px 8px rgba(255, 100, 100, 0.6);
+  }
+}
+
+
+// More quantum effects...
+@keyframes planck-vibrate {
+
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(0.5px, 0.5px);
+  }
+
+  50% {
+    transform: translate(-0.5px, 0.5px);
+  }
+
+  75% {
+    transform: translate(0.5px, -0.5px);
+  }
+}
+
+@keyframes horizon-distort {
+
+  0%,
+  100% {
+    border-radius: 20px;
+  }
+
+  50% {
+    border-radius: 50% 20% 50% 20%;
+  }
+}
+
+@keyframes singularity-collapse {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.001);
+    opacity: 0;
+  }
+}
+
+// Final effects for forces
+@keyframes strong-bind {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes weak-decay {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.5;
+  }
+}
+
+
+
+@keyframes gravity-bend {
+
+  0%,
+  100% {
+    transform: perspective(100px) rotateX(0deg);
+  }
+
+  50% {
+    transform: perspective(100px) rotateX(10deg);
+  }
+}
+
+@keyframes fission-split {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+}
+
+@keyframes fusion-merge {
+  0% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes alpha-emit {
+  0% {
+    filter: brightness(1);
+  }
+
+  100% {
+    filter: brightness(2);
+  }
+}
+
+@keyframes beta-transform {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+@keyframes gamma-blast {
+  0% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(5);
+  }
+
+  100% {
+    filter: brightness(1);
+  }
+}
+
+@keyframes xray-penetrate {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+// Final quantum mechanics
+@keyframes quantum-superpose {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+
+
+@keyframes wave-function-collapse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+}
+
+@keyframes heisenberg-blur {
+
+  0%,
+  100% {
+    filter: blur(0px);
+  }
+
+  50% {
+    filter: blur(1px);
+  }
+}
+
+@keyframes quantum-tunnel-effect {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zero-point-fluctuation {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.01);
+  }
+}
+
+@keyframes vacuum-fluctuate {
+
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes casimir-attract {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.98);
+  }
+}
+
+
+
+
+@keyframes particle-burst-complex {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  25% {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes rainbow-border {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// 2. 3D Cube Flip Animations
+@keyframes cube-flip-rotation {
+  0% {
+    transform: rotateY(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotateY(90deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotateY(180deg) scale(1);
+  }
+}
+
+// 3. Liquid Metal Morph Animations
+@keyframes liquid-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes liquid-morph {
+  0% {
+    border-radius: 10px;
+    transform: scale(1);
+  }
+
+  25% {
+    border-radius: 50% 10% 50% 10%;
+    transform: scale(1.05);
+  }
+
+  50% {
+    border-radius: 10% 50% 10% 50%;
+    transform: scale(1.1) rotate(5deg);
+  }
+
+  75% {
+    border-radius: 50% 30% 50% 30%;
+    transform: scale(1.05) rotate(-3deg);
+  }
+
+  100% {
+    border-radius: 10px;
+    transform: scale(1);
+  }
+}
+
+// 4. Holographic Depth Field Animations
+@keyframes holographic-shift-3d {
+  0% {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+    filter: hue-rotate(0deg);
+  }
+
+  25% {
+    transform: perspective(1000px) rotateX(5deg) rotateY(10deg);
+    filter: hue-rotate(90deg);
+  }
+
+  50% {
+    transform: perspective(1000px) rotateX(-3deg) rotateY(-5deg);
+    filter: hue-rotate(180deg);
+  }
+
+  75% {
+    transform: perspective(1000px) rotateX(2deg) rotateY(8deg);
+    filter: hue-rotate(270deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes depth-field-expand {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  50% {
+    width: 400px;
+    height: 400px;
+    opacity: 0.8;
+  }
+
+  100% {
+    width: 600px;
+    height: 600px;
+    opacity: 0;
+  }
+}
+
+// 5. Quantum Entanglement Animations
+@keyframes quantum-pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 20px #8a2be2;
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px #8a2be2, inset 0 0 20px #4b0082;
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px #8a2be2;
+  }
+}
+
+@keyframes entangled-orbit-1 {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg) translateX(80px) rotate(0deg);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(360deg) translateX(80px) rotate(-360deg);
+  }
+}
+
+@keyframes entangled-orbit-2 {
+  0% {
+    opacity: 0;
+    transform: rotate(180deg) translateX(80px) rotate(-180deg);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+    transform: rotate(540deg) translateX(80px) rotate(-540deg);
+  }
+}
+
+
+@keyframes synapse-fire {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  25% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  50% {
+    opacity: 0.7;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+// 7. Dimensional Rift Animations
+@keyframes rift-distortion {
+  0% {
+    transform: scale(1) skewX(0deg);
+    filter: blur(0px);
+  }
+
+  25% {
+    transform: scale(1.05) skewX(5deg);
+    filter: blur(1px);
+  }
+
+  50% {
+    transform: scale(0.95) skewX(-3deg);
+    filter: blur(2px);
+  }
+
+  75% {
+    transform: scale(1.02) skewX(2deg);
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: scale(1) skewX(0deg);
+    filter: blur(0px);
+  }
+}
+
+
+@keyframes singularity-growth {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(3);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+}
+
+// 8. Plasma Field Animations
+@keyframes plasma-drift {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  25% {
+    transform: translate(-10px, -10px) rotate(90deg);
+  }
+
+  50% {
+    transform: translate(10px, -10px) rotate(180deg);
+  }
+
+  75% {
+    transform: translate(10px, 10px) rotate(270deg);
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+@keyframes plasma-sweep {
+  0% {
+    transform: translateX(-100%) rotate(45deg);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%) rotate(45deg);
+    opacity: 0;
+  }
+}
+
+// 9. Crystalline Matrix Animations
+@keyframes crystal-resonance {
+  0% {
+    transform: scale(1);
+    filter: brightness(1) saturate(1);
+  }
+
+  25% {
+    transform: scale(1.02);
+    filter: brightness(1.2) saturate(1.3);
+  }
+
+  50% {
+    transform: scale(0.98);
+    filter: brightness(1.4) saturate(1.6);
+  }
+
+  75% {
+    transform: scale(1.01);
+    filter: brightness(1.3) saturate(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+    filter: brightness(1) saturate(1);
+  }
+}
+
+@keyframes crystal-refraction {
+  0% {
+    filter: hue-rotate(0deg) brightness(1);
+  }
+
+  33% {
+    filter: hue-rotate(120deg) brightness(1.3);
+  }
+
+  66% {
+    filter: hue-rotate(240deg) brightness(1.1);
+  }
+
+  100% {
+    filter: hue-rotate(360deg) brightness(1);
+  }
+}
+
+@keyframes energy-core-pulse {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+// 10. Temporal Distortion Animations
+@keyframes temporal-shift {
+  0% {
+    transform: scale(1) translateX(0);
+    filter: blur(0px) hue-rotate(0deg);
+  }
+
+  25% {
+    transform: scale(1.02) translateX(-2px);
+    filter: blur(1px) hue-rotate(90deg);
+  }
+
+  50% {
+    transform: scale(0.98) translateX(2px);
+    filter: blur(2px) hue-rotate(180deg);
+  }
+
+  75% {
+    transform: scale(1.01) translateX(-1px);
+    filter: blur(1px) hue-rotate(270deg);
+  }
+
+  100% {
+    transform: scale(1) translateX(0);
+    filter: blur(0px) hue-rotate(360deg);
+  }
+}
+
+@keyframes time-distort {
+  0% {
+    transform: skewX(-20deg) scaleY(1);
+  }
+
+  50% {
+    transform: skewX(-30deg) scaleY(1.1);
+  }
+
+  100% {
+    transform: skewX(-20deg) scaleY(1);
+  }
+}
+
+@keyframes chronon-wave {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    left: 100%;
+    opacity: 0;
+  }
+}
+
+// ========================================
+// BIOMIMETIC & ORGANIC ANIMATIONS (11-40)
+// ========================================
+
+// 11. Breathing Cell Animations
+@keyframes cellular-pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.7;
+  }
+}
+
+@keyframes organic-breathe {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+// 12. Liquid Blob Animations
+@keyframes blob-morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  25% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  50% {
+    border-radius: 50% 40% 60% 30% / 40% 70% 50% 30%;
+  }
+
+  75% {
+    border-radius: 40% 70% 40% 60% / 60% 40% 70% 50%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+@keyframes liquid-glow {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+// 13. DNA Helix Animations
+@keyframes dna-spiral-1 {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+
+  25% {
+    transform: translateY(-10px) scale(1.2);
+  }
+
+  50% {
+    transform: translateY(0) scale(0.8);
+  }
+
+  75% {
+    transform: translateY(10px) scale(1.2);
+  }
+
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes dna-spiral-2 {
+  0% {
+    transform: translateY(0) scale(0.8);
+  }
+
+  25% {
+    transform: translateY(10px) scale(1.2);
+  }
+
+  50% {
+    transform: translateY(0) scale(1);
+  }
+
+  75% {
+    transform: translateY(-10px) scale(1.2);
+  }
+
+  100% {
+    transform: translateY(0) scale(0.8);
+  }
+}
+
+// 14. Cell Division Animations
+@keyframes cell-division {
+  0% {
+    transform: scale(1);
+    border-radius: 50%;
+  }
+
+  25% {
+    transform: scale(1.1);
+    border-radius: 40% 60% 60% 40%;
+  }
+
+  50% {
+    transform: scale(1.2) scaleX(1.4);
+    border-radius: 30% 70% 70% 30%;
+  }
+
+  75% {
+    transform: scale(1.1) scaleX(1.6);
+    border-radius: 20% 80% 80% 20%;
+  }
+
+  100% {
+    transform: scale(1) scaleX(1.8);
+    border-radius: 10% 90% 90% 10%;
+  }
+}
+
+@keyframes nucleus-split {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2) translateX(20px);
+  }
+}
+
+
+
+// 16. Jellyfish Animations
+@keyframes jellyfish-swim {
+
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1);
+  }
+
+  50% {
+    transform: translateY(-10px) scaleY(1.1);
+  }
+}
+
+@keyframes tentacle-wave {
+
+  0%,
+  100% {
+    transform: skewX(0deg);
+  }
+
+  50% {
+    transform: skewX(10deg);
+  }
+}
+
+
+
+// 18. Spider Web Animations
+@keyframes web-vibration {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(1px, 0);
+  }
+
+  50% {
+    transform: translate(0, 1px);
+  }
+
+  75% {
+    transform: translate(-1px, 0);
+  }
+}
+
+// 19. Photosynthesis Animations
+@keyframes photosynthetic-glow {
+
+  0%,
+  100% {
+    filter: brightness(1) saturate(1);
+  }
+
+  50% {
+    filter: brightness(1.3) saturate(1.5);
+  }
+}
+
+@keyframes energy-absorption {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+// 20. Honeycomb Animations
+@keyframes honeycomb-buzz {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(1px, 1px);
+  }
+
+  50% {
+    transform: translate(-1px, 1px);
+  }
+
+  75% {
+    transform: translate(1px, -1px);
+  }
+}
+
+@keyframes nectar-flow {
+  0% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+// ========================================
+// PHYSICS & PARTICLE ANIMATIONS (21-40)
+// ========================================
+
+// 21. Quantum Foam Animations
+// @keyframes foam-bubble-chaos {
+//   0% {
+//     transform: translate(0, 0) scale(1);
+//   }
+
+//   25% {
+//     transform: translate(-2px, -2px) scale(1.1);
+//   }
+
+//   50% {
+//     transform: translate(2px, -2px) scale(0.9);
+//   }
+
+//   75% {
+//     transform: translate(-2px, 2px) scale(1.05);
+//   }
+
+//   100% {
+//     transform: translate(0, 0) scale(1);
+//   }
+// }
+
+// 22. Magnetic Field Animations
+@keyframes field-lines-flow {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 20px 0px;
+  }
+}
+
+// 23. Electron Cloud Animations
+@keyframes electron-orbit-s {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(30px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(30px) rotate(-360deg);
+  }
+}
+
+@keyframes electron-orbit-p {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(40px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(40px) rotate(-360deg);
+  }
+}
+
+// 24. Gravitational Wave Animations
+@keyframes gravity-ripple {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.8);
+  }
+}
+
+// 25. Plasma Storm Animations
+@keyframes plasma-chaos {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  25% {
+    transform: rotate(90deg) scale(1.1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(0.9);
+  }
+
+  75% {
+    transform: rotate(270deg) scale(1.05);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+// ========================================
+// LIQUID & MATHEMATICAL ANIMATIONS (26-60)
+// ========================================
+
+// 26-30: Liquid Effects Animations
+@keyframes mercury-wobble {
+
+  0%,
+  100% {
+    border-radius: 50%;
+    transform: scale(1);
+  }
+
+  25% {
+    border-radius: 60% 40% 30% 70%;
+    transform: scale(1.05);
+  }
+
+  50% {
+    border-radius: 40% 60% 70% 30%;
+    transform: scale(0.98);
+  }
+
+  75% {
+    border-radius: 70% 30% 40% 60%;
+    transform: scale(1.02);
+  }
+}
+
+@keyframes surface-tension {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes lava-rise {
+
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-10px) scale(1.1);
+  }
+}
+
+@keyframes bubble-float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-20px) rotate(180deg);
+  }
+}
+
+@keyframes iridescent-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes surface-shimmer {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes viscous-flow {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-20px, -20px) rotate(45deg);
+  }
+}
+
+@keyframes bubble-iridescence {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes film-tension {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+// 31-35: Mathematical Animations
+@keyframes fibonacci-grow {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  100% {
+    transform: scale(1.618) rotate(137.5deg);
+  }
+}
+
+@keyframes fractal-growth {
+  0% {
+    opacity: 0.3;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(1.6);
+  }
+}
+
+@keyframes mobius-twist {
+  0% {
+    transform: perspective(200px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(200px) rotateY(180deg);
+  }
+}
+
+@keyframes strip-flow {
+  0% {
+    transform: perspective(100px) rotateY(45deg) translateX(-100%);
+  }
+
+  100% {
+    transform: perspective(100px) rotateY(45deg) translateX(100%);
+  }
+}
+
+@keyframes tesseract-rotate-1 {
+  0% {
+    transform: perspective(100px) rotateX(45deg) rotateY(45deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: perspective(100px) rotateX(45deg) rotateY(45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes tesseract-rotate-2 {
+  0% {
+    transform: perspective(100px) rotateX(-45deg) rotateY(-45deg) rotateZ(0deg);
+  }
+
+  100% {
+    transform: perspective(100px) rotateX(-45deg) rotateY(-45deg) rotateZ(-360deg);
+  }
+}
+
+@keyframes golden-expand {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+  }
+}
+
+// ========================================
+// COSMIC HORROR & ELEMENTAL ANIMATIONS (36-60)
+// ========================================
+
+// 36-40: Cosmic Horror Animations
+@keyframes tentacle-writhe {
+
+  0%,
+  100% {
+    transform: rotate(0deg) scaleY(1);
+  }
+
+  25% {
+    transform: rotate(5deg) scaleY(1.1);
+  }
+
+  50% {
+    transform: rotate(-3deg) scaleY(0.9);
+  }
+
+  75% {
+    transform: rotate(8deg) scaleY(1.05);
+  }
+}
+
+@keyframes reality-distort {
+
+  0%,
+  100% {
+    transform: scale(1) skew(0deg);
+    filter: blur(0px);
+  }
+
+  50% {
+    transform: scale(0.95) skew(2deg);
+    filter: blur(1px);
+  }
+}
+
+@keyframes void-expand {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(4);
+  }
+}
+
+@keyframes eye-dialate {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pupil-track {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+
+  25% {
+    transform: translate(-40%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, -40%);
+  }
+
+  75% {
+    transform: translate(-60%, -50%);
+  }
+
+  100% {
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes spiral-madness {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+@keyframes reality-tear {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+}
+
+// 41-45: Elemental Animations
+@keyframes thunder-flash {
+
+  0%,
+  90%,
+  100% {
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+  }
+
+  10% {
+    background: #ffffff;
+  }
+}
+
+@keyframes lightning-strike {
+
+  0%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+}
+
+@keyframes lava-erupt {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 80%;
+  }
+
+  100% {
+    height: 120%;
+    opacity: 0.5;
+  }
+}
+
+@keyframes wave-crash {
+  0% {
+    transform: translateX(-100%) scaleY(1);
+  }
+
+  50% {
+    transform: translateX(0%) scaleY(1.2);
+  }
+
+  100% {
+    transform: translateX(100%) scaleY(0.8);
+  }
+}
+
+@keyframes tornado-spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+
+
+
+// 46-50: Tech Animations
+@keyframes circuit-flow {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes hologram-flicker {
+
+  0%,
+  90%,
+  100% {
+    opacity: 1;
+  }
+
+  10% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes scan-lines {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+@keyframes data-flow {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes neon-buzz {
+
+  0%,
+  95%,
+  100% {
+    opacity: 1;
+    box-shadow: inset 0 0 10px #ff0080;
+  }
+
+  5% {
+    opacity: 0.8;
+    box-shadow: inset 0 0 5px #ff0080;
+  }
+}
+
+@keyframes quantum-compute {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+// ========================================
+// CRYSTALLINE & MYSTICAL ANIMATIONS (51-85)
+// ========================================
+
+// 51-55: Crystalline Effects
+
+
+@keyframes crystal-formation {
+  0% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkle-burst {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes erosion-flow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes piezo-vibration {
+
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(1px, 1px);
+  }
+}
+
+// 56-60: Mystical Effects
+
+
+@keyframes mystical-glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 20px #9370db;
+  }
+
+  50% {
+    box-shadow: 0 0 40px #9370db, 0 0 60px #9370db;
+  }
+}
+
+@keyframes magical-particles {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes portal-spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+
+@keyframes void-pull {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes rune-glow {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes mist-drift {
+  0% {
+    transform: translateY(100%) translateX(-20%);
+  }
+
+  100% {
+    transform: translateY(-100%) translateX(20%);
+  }
+}
+
+// 61-65: Retro Effects
+@keyframes grid-scan {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 20px 20px;
+  }
+}
+
+@keyframes vhs-distortion {
+
+  0%,
+  90%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(2px, 0);
+    filter: hue-rotate(90deg);
+  }
+}
+
+@keyframes tape-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes pixel-shimmer {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.3) contrast(1.2);
+  }
+}
+
+// 66-70: Sci-Fi Effects
+@keyframes laser-sweep {
+  0% {
+    left: -100%;
+    top: 0;
+  }
+
+  50% {
+    left: 100%;
+    top: 50%;
+  }
+
+  100% {
+    left: -100%;
+    top: 100%;
+  }
+}
+
+@keyframes shield-fluctuation {
+
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes energy-pulse {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@keyframes field-interference {
+
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+// ========================================
+// ORGANIC & ADVANCED ANIMATIONS (71-150)
+// ========================================
+
+// 71-90: Organic & Weather Effects
+@keyframes petal-bloom {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes trunk-grow {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 60%;
+  }
+}
+
+@keyframes canopy-spread {
+  0% {
+    width: 0;
+    height: 0;
+  }
+
+  100% {
+    width: 80%;
+    height: 40%;
+  }
+}
+
+@keyframes wave-motion {
+  0% {
+    transform: translateX(-100%) scaleY(1);
+  }
+
+  50% {
+    transform: translateX(0%) scaleY(1.3);
+  }
+
+  100% {
+    transform: translateX(100%) scaleY(0.8);
+  }
+}
+
+@keyframes sand-shift {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+@keyframes peak-glow {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.5) drop-shadow(0 0 20px white);
+  }
+}
+
+@keyframes cloud-rumble {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes lightning-flash {
+
+  0%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+}
+
+@keyframes rainbow-shimmer {
+
+  0%,
+  100% {
+    filter: brightness(1) saturate(1);
+  }
+
+  50% {
+    filter: brightness(1.3) saturate(1.5);
+  }
+}
+
+@keyframes snowflakes-fall {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  100% {
+    transform: translateY(100px);
+  }
+}
+
+
+// 81-90: Geometric Patterns
+@keyframes mandala-rotation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+
+@keyframes hex-pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+}
+
+@keyframes triangle-oscillate {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(5deg);
+  }
+}
+
+@keyframes pentagon-transform {
+  0% {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+
+  50% {
+    clip-path: polygon(50% 10%, 90% 38%, 82% 90%, 18% 90%, 10% 38%);
+  }
+
+  100% {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+}
+
+@keyframes octagon-growth {
+
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.1) rotate(22.5deg);
+  }
+}
+
+// 86-90: Advanced Effects
+@keyframes plasma-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes helix-twist {
+  0% {
+    transform: rotateY(0deg) translateZ(0);
+  }
+
+  100% {
+    transform: rotateY(360deg) translateZ(20px);
+  }
+}
+
+
+
+@keyframes tunnel-zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// ========================================
+// BIOMECHANICAL & FANTASY ANIMATIONS (91-150)
+// ========================================
+
+// 91-110: Biomechanical & Dimensional Effects
+@keyframes cyber-scan {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes neural-pulse {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+@keyframes bio-scan {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes heart-beat {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-glow {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.8);
+  }
+}
+
+
+@keyframes rift-expand {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.5) rotate(180deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes dimension-slide {
+  0% {
+    transform: translateX(100%);
+  }
+
+  50% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+@keyframes entangle-spin {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(360deg);
+  }
+}
+
+
+// 101-110: Elemental Fusion Effects
+@keyframes element-clash {
+  0% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 1;
+    filter: brightness(1.5);
+  }
+
+  100% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes electric-water {
+
+  0%,
+  80%,
+  100% {
+    opacity: 0.5;
+  }
+
+  20% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes magnetic-pull {
+
+  0%,
+  100% {
+    transform: scale(1) skew(0deg);
+  }
+
+  50% {
+    transform: scale(1.1) skew(2deg);
+  }
+}
+
+@keyframes crystal-charge {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+// 106-150: Fantasy & Final Effects
+@keyframes phoenix-rise {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+
+  100% {
+    width: 200%;
+    height: 150%;
+    opacity: 0;
+  }
+}
+
+@keyframes flame-breath {
+  0% {
+    transform: translateX(-100%) skewY(-10deg);
+  }
+
+  100% {
+    transform: translateX(100%) skewY(-10deg);
+  }
+}
+
+@keyframes magic-sparkles {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+@keyframes gateway-rotation {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1.05);
+  }
+}
+
+@keyframes singularity-pull {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes event-horizon {
+
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+// ========================================
+// FINAL COLLECTION ANIMATIONS (111-150)
+// ========================================
+
+// 111-120: Advanced Tech Effects
+@keyframes code-rain {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(200%);
+  }
+}
+
+@keyframes grid-activate {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes ion-chaos {
+  0% {
+    background-position: 0 0;
+    filter: brightness(1);
+  }
+
+  50% {
+    background-position: 10px 10px;
+    filter: brightness(1.5);
+  }
+
+  100% {
+    background-position: 0 0;
+    filter: brightness(1);
+  }
+}
+
+@keyframes crystal-matrix-pulse {
+
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.1) rotate(5deg);
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes antimatter-explosion {
+  0% {
+    transform: scale(0) rotate(0deg);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.5) rotate(180deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(3) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+@keyframes tachyon-speed {
+  0% {
+    transform: translateX(-100%) skewX(-20deg);
+  }
+
+  100% {
+    transform: translateX(300%) skewX(-20deg);
+  }
+}
+
+@keyframes subspace-distortion {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  50% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes probability-collapse {
+  0% {
+    transform: translateX(-100%) scaleY(1);
+  }
+
+  50% {
+    transform: translateX(0%) scaleY(1.5);
+  }
+
+  100% {
+    transform: translateX(100%) scaleY(0.5);
+  }
+}
+
+@keyframes morph-transition {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+// 121-150: Comprehensive Effect Set
+@keyframes chromatic-shift {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+
+
+@keyframes bond-vibration {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes cascade-flow {
+  0% {
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes echo-pulse {
+
+  0%,
+  100% {
+    transform: translate(5px, 5px);
+    opacity: 0.5;
+  }
+
+  50% {
+    transform: translate(10px, 10px);
+    opacity: 0.8;
+  }
+}
+
+
+@keyframes core-rotation {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes matter-distortion {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.9);
+    filter: blur(1px);
+  }
+}
+
+@keyframes web-pulse {
+
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes superposition-flicker {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes boson-discovery {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes string-vibration-complex {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+
+
+@keyframes decay-spread {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0.3;
+  }
+}
+
+
+@keyframes planck-scale {
+
+  0%,
+  100% {
+    background-size: 2px 2px;
+  }
+
+  50% {
+    background-size: 4px 4px;
+  }
+}
+
+@keyframes inflation-expansion {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+    opacity: 0.5;
+  }
+}
+
+@keyframes rip-effect {
+  0% {
+    filter: blur(0);
+  }
+
+  100% {
+    filter: blur(3px);
+    transform: scale(1.2);
+  }
+}
+
+@keyframes entropy-increase {
+  0% {
+    filter: brightness(1);
+  }
+
+  100% {
+    filter: brightness(0.3);
+  }
+}
+
+@keyframes upload-process {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+@keyframes transcendence-glow {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(2) saturate(2);
+  }
+}
+
+@keyframes simulation-glitch {
+
+  0%,
+  90%,
+  100% {
+    transform: translate(0);
+  }
+
+  10% {
+    transform: translate(2px, 1px);
+  }
+}
+
+
+
+@keyframes singularity-emergence {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+    filter: brightness(2);
+  }
+}
+
+@keyframes constant-stability {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes anthropic-balance {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(30deg);
+  }
+}
+
+@keyframes paradox-question {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes equation-calculate {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes civilization-advance {
+  0% {
+    filter: brightness(1);
+  }
+
+  100% {
+    filter: brightness(1.5);
+  }
+}
+
+
+
+@keyframes warp-bubble {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes crystal-time {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes exotic-properties {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(90deg);
+  }
+}
+
+@keyframes negative-field {
+
+  0%,
+  100% {
+    filter: invert(0);
+  }
+
+  50% {
+    filter: invert(1);
+  }
+}
+
+@keyframes timelike-loop {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes causality-paradox {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    filter: blur(1px);
+  }
+}
+
+@keyframes bootstrap-cycle {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+@keyframes paradox-resolution {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes worlds-split {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 40px 0;
+  }
+}
+
+@keyframes immortal-consciousness {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.5) saturate(1.5);
+  }
+}
+
+@keyframes observation-collapse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes superposition-state {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(0.5);
+  }
+}
+
+@keyframes zeno-freeze {
+  0% {
+    animation-play-state: running;
+  }
+
+  50% {
+    animation-play-state: paused;
+  }
+
+  100% {
+    animation-play-state: running;
+  }
+}
+
+@keyframes choice-retroactivity {
+
+  0%,
+  100% {
+    filter: sepia(0);
+  }
+
+  50% {
+    filter: sepia(1);
+  }
+}
+
+@keyframes information-erasure {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes bell-inequality {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes spooky-action {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(180deg);
+  }
+}
+
+@keyframes consciousness-expansion {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+    filter: brightness(2);
+  }
+}
+
+@keyframes mind-unity {
+  0% {
+    transform: rotate(0deg);
+    filter: brightness(1);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes records-access {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.5) contrast(1.5);
+  }
+}
+
+@keyframes resonance-field {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes unconscious-emergence {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes archetype-manifestation {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+    filter: brightness(1.5);
+  }
+}
+
+@keyframes noosphere-activation {
+
+  0%,
+  100% {
+    filter: brightness(1);
+  }
+
+  50% {
+    filter: brightness(1.4) saturate(1.3);
+  }
+}
+
+
+@keyframes border-draw {
+  0% {
+    stroke-dashoffset: 100%;
+  }
+
+  100% {
+    stroke-dashoffset: 0%;
+  }
+}
+
+
+
+@keyframes border-walk {
+  0% {
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: currentColor;
+  }
+
+  25% {
+    border-top-color: currentColor;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: currentColor;
+  }
+
+  50% {
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-bottom-color: transparent;
+    border-left-color: currentColor;
+  }
+
+  75% {
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-bottom-color: currentColor;
+    border-left-color: currentColor;
+  }
+
+  100% {
+    border-top-color: currentColor;
+    border-right-color: currentColor;
+    border-bottom-color: currentColor;
+    border-left-color: currentColor;
+  }
+}
+
+@keyframes gradient-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes border-trail-move {
+  0% {
+    offset-path: path('M 0,0 L 100,0 L 100,100 L 0,100 Z');
+    offset-distance: 0%;
+  }
+
+  100% {
+    offset-path: path('M 0,0 L 100,0 L 100,100 L 0,100 Z');
+    offset-distance: 100%;
+  }
+}
+
+@keyframes neon-pulse-effect {
+
+  0%,
+  100% {
+    border-color: #9b59b6;
+    box-shadow: 0 0 5px #9b59b6;
+  }
+
+  50% {
+    border-color: #e91e63;
+    box-shadow: 0 0 20px #e91e63, 0 0 30px #e91e63;
+  }
+}
+
+
+
+
+@keyframes blob-bounce {
+
+  0%,
+  100% {
+    border-radius: 50% 20% 30% 40%;
+  }
+
+  25% {
+    border-radius: 20% 50% 40% 30%;
+  }
+
+  50% {
+    border-radius: 40% 30% 50% 20%;
+  }
+
+  75% {
+    border-radius: 30% 40% 20% 50%;
+  }
+}
+
+@keyframes glitch-anim {
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+
+@keyframes liquid-ripple {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+
+
+@keyframes hologram-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes cyberpunk-glitch-anim {
+
+  0%,
+  100% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, 2px);
+  }
+
+  80% {
+    transform: translate(2px, -2px);
+  }
+}
+
+
+
+@keyframes typewriter-cursor {
+
+  0%,
+  50% {
+    border-right-color: transparent;
+  }
+
+  51%,
+  100% {
+    border-right-color: #fff;
+  }
+}
+
+@keyframes magnetic-pulse {
+
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.1;
+  }
+}
+
+@keyframes matrix-rain-fall {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes smoke-disperse {
+  0% {
+    opacity: 1;
+    transform: scale(0) rotate(0deg);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2) rotate(180deg);
+  }
+}
+
+
+@keyframes ascii-blink {
+
+  0%,
+  50% {
+    opacity: 1;
+  }
+
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+
+@keyframes tidal-motion {
+
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+
+  50% {
+    transform: scaleY(1.5);
+  }
+}
+
+@keyframes fractal-pulse {
+
+  0%,
+  100% {
+    border-color: #ff6b6b;
+  }
+
+  50% {
+    border-color: #4ecdc4;
+  }
+}
+
+
+
+
+// &&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+@keyframes accordion-compress {
+  0% {
+    transform: scaleX(0);
+  }
+
+  50% {
+    transform: scaleX(1.2);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+@keyframes blind-drop {
+  0% {
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes cassette-insert {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+@keyframes disk-read {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes drip-expand {
+  0% {
+    width: 2px;
+    height: 0;
+  }
+
+  50% {
+    width: 2px;
+    height: 100%;
+  }
+
+  100% {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@keyframes quicksilver-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+@keyframes tar-bubble {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes lava-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes plasma-pulse {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes gel-jiggle {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.05, 0.95);
+  }
+
+  50% {
+    transform: scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.02, 0.98);
+  }
+}
+
+@keyframes slime-bounce {
+  0% {
+    transform: scaleX(0.5) scaleY(1.5);
+  }
+
+  50% {
+    transform: scaleX(1.5) scaleY(0.5);
+  }
+
+  100% {
+    transform: scaleX(1) scaleY(1);
+  }
+}
+
+@keyframes star-twinkle {
+
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scale(1.1) rotate(180deg);
+  }
+}
+
+@keyframes aurora-wave {
+
+  0%,
+  100% {
+    transform: translateX(-10px);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+}
+
+
+@keyframes blizzard-fall {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes crack-spread {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes earthquake-tremor {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  10% {
+    transform: translateX(-2px);
+  }
+
+  20% {
+    transform: translateX(2px);
+  }
+
+  30% {
+    transform: translateX(-2px);
+  }
+
+  40% {
+    transform: translateX(2px);
+  }
+
+  50% {
+    transform: translateX(-1px);
+  }
+
+  60% {
+    transform: translateX(1px);
+  }
+
+  70% {
+    transform: translateX(-1px);
+  }
+
+  80% {
+    transform: translateX(1px);
+  }
+
+  90% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes geyser-spray {
+  0% {
+    height: 0;
+  }
+
+  50% {
+    height: 150%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+
+
+@keyframes jukebox-pulse {
+
+  0%,
+  100% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes pinball-light {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes coin-flip {
+  0% {
+    transform: scale(1) rotateY(0deg);
+  }
+
+  50% {
+    transform: scale(1) rotateY(90deg);
+  }
+
+  100% {
+    transform: scale(1) rotateY(0deg);
+  }
+}
+
+@keyframes tv-static {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 10px 10px;
+  }
+}
+
+@keyframes morse-tap {
+
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translateY(-2px);
+  }
+}
+
+
+
+
+@keyframes block-chain {
+  0% {
+    left: 10%;
+  }
+
+  25% {
+    left: 30%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  75% {
+    left: 70%;
+  }
+
+  100% {
+    left: 90%;
+  }
+}
+
+@keyframes ai-think {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes nebula-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes galaxy-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes asteroid-drift {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes radiation-pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes satellite-path {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes debris-float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes planet-align {
+  0% {
+    transform: translateY(-50%) translateX(0);
+  }
+
+  50% {
+    transform: translateY(-50%) translateX(20px);
+  }
+
+  100% {
+    transform: translateY(-50%) translateX(0);
+  }
+}
+
+@keyframes rocket-thrust {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes star-field {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes cell-split {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+
+
+@keyframes neural-spark {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes enzyme-catalyze {
+  0% {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1.8);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes photo-energy {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
+
+@keyframes eco-heartbeat {
+
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes evolve-progress {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes power-surge {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes level-victory {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes boss-rage {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes combo-flash {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes respawn-countdown {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+
+
+@keyframes paint-splatter {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes watercolor-spread {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0.3;
+  }
+}
+
+@keyframes sketch-fill {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0.1;
+  }
+}
+
+@keyframes spray-effect {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+@keyframes marble-vein {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes abstract-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes cyber-glow {
+
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes orbit-top {
+  0% {
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  25% {
+    top: 50%;
+    right: -4px;
+    left: auto;
+    transform: translateY(-50%);
+  }
+
+  50% {
+    bottom: -4px;
+    right: 50%;
+    top: auto;
+    left: auto;
+    transform: translateX(50%);
+  }
+
+  75% {
+    left: -4px;
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    top: -4px;
+    left: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes orbit-bottom {
+  0% {
+    bottom: -4px;
+    right: 50%;
+    transform: translateX(50%);
+  }
+
+  25% {
+    left: -4px;
+    bottom: auto;
+    right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  50% {
+    top: -4px;
+    left: 50%;
+    bottom: auto;
+    transform: translateX(-50%);
+  }
+
+  75% {
+    right: -4px;
+    top: 50%;
+    left: auto;
+    bottom: auto;
+    transform: translateY(-50%);
+  }
+
+  100% {
+    bottom: -4px;
+    right: 50%;
+    top: auto;
+    left: auto;
+    transform: translateX(50%);
+  }
+}
+
+@keyframes zigzag-move {
+  0% {
+    background-position: 0px 0px, 0px 4px, 4px -4px, -4px 0px;
+  }
+
+  100% {
+    background-position: 16px 0px, 16px 4px, 20px -4px, 12px 0px;
+  }
+}
+
+@keyframes neon-pulse {
+  0% {
+    opacity: 0.6;
+    background-size: 20px 20px;
+  }
+
+  50% {
+    opacity: 1;
+    background-size: 25px 25px;
+  }
+
+  100% {
+    opacity: 0.6;
+    background-size: 20px 20px;
+  }
+}
+
+
+@keyframes cyber-blink {
+
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes orbit-spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+
+
+
+@keyframes lava-move {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes ripple-echo {
+  0% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}
+
+@keyframes sonar-ping {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+@keyframes ink-bleed-pulse {
+
+  0%,
+  100% {
+    background-position: center;
+  }
+
+  50% {
+    background-position: top left;
+  }
+}
+
+@keyframes glitch-flash {
+
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes circuit-flow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes helix-move {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 200% 0%;
+  }
+}
+
+
+
+@keyframes beam-sweep {
+  0% {
+    transform: translateX(-100%) rotate(25deg);
+  }
+
+  100% {
+    transform: translateX(100%) rotate(25deg);
+  }
+}
+
+@keyframes meteor-stream {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+@keyframes drip-fall {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+}
+
+
+
+@keyframes orbit-flip-spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes laser-strike-flash {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes shimmer-bar {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes burst-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+@keyframes split-flicker {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@keyframes glow-ring {
+  0% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.4;
+  }
+}
+
+
+@keyframes flash-wave {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes sweep-border {
+  0% {
+    border-image-source: linear-gradient(90deg, #0ff, #00f, #0ff);
+  }
+
+  100% {
+    border-image-source: linear-gradient(90deg, #00f, #0ff, #00f);
+  }
+}
+
+
+
+@keyframes burst-hover-key {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes border-revolve-key {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@keyframes ring-indicator-key {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+
+@keyframes wobble-wiggle-key {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  75% {
+    transform: rotate(3deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+@keyframes wobble-up-down {
+  0% {
+    transform: translateY(0);
+  }
+
+  25% {
+    transform: translateY(-4px);
+  }
+
+  75% {
+    transform: translateY(4px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes pulse-simple-key {
+
+  0%,
+  70%,
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+}
+
+@keyframes popcorn-burst {
+  0% { box-shadow: 0 0 0 0 rgba(216,67,21,0.5); }
+  100% { box-shadow: 0 0 0 20px rgba(216,67,21,0); }
+}
+
+
+@keyframes hydra-ripple {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+
+@keyframes ring-pulse {
+  0% {
+    background-position: 0% 50%;
+    transform: scale(1);
+  }
+  50% {
+    background-position: 100% 50%;
+    transform: scale(1.05);
+  }
+  100% {
+    background-position: 200% 50%;
+    transform: scale(1);
+  }
+}
+
+@keyframes ring-glow {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+}

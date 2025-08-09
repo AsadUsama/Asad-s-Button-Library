@@ -1,0 +1,40 @@
+.btn {
+    padding: $padding;
+    border-radius: $radius20;
+    letter-spacing: $ls-1;
+    font-weight: $font-medium;
+    color: $white;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin: 20px;
+    text-transform: uppercase;
+    background: none;
+    transition: all 0.3s ease-in-out;
+
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: auto;
+        height:auto;
+        transition: all 0.3s ease-in-out;
+
+    }
+}
+
+.btn-block{
+    display:block;
+    width:100%;
+}
+
+.btn-rounded {
+    border-radius: 50px;
+}
+
+.btn-square {
+    border-radius: 0;
+}
+
