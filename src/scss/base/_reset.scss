@@ -10,9 +10,9 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  padding: 100px;
+  text-align: center;
   flex-wrap: wrap;
-  background-color:rgb(48, 48, 48);
+  background-color: rgb(48, 48, 48);
 }
 
 div,
@@ -21,7 +21,7 @@ button {
   display: inline-block;
   background: transparent;
   cursor: pointer;
-   
+
   &:active,
   &:hover {
     outline: none;
@@ -46,17 +46,16 @@ button {
   text-decoration: none;
 }
 
-h2{
+h2 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #dcdcdc;
   margin: 30px;
-  padding:30px;
+  padding: 30px;
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
   background: linear-gradient(90deg, transparent, #232323, transparent);
 }
-
