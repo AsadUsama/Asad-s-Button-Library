@@ -189,5 +189,5 @@ Perfect for:
 
 --  Contact
 
-Your Name - asadusama121@gmail.com
+  Email: asadusama121@gmail.com 
 
